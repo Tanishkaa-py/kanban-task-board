@@ -1,4 +1,22 @@
-# React + Vite
+# Kanban Task Board
+
+Live Demo: https://your-vercel-link.vercel.app
+
+## Features
+
+- Add, Delete, Move Tasks
+- Drag & Drop (dnd-kit)
+- Task Editing
+- Priority System
+- LocalStorage Persistence
+- Search Filtering
+
+## Tech Stack
+
+- React (Vite)
+- JavaScript
+- dnd-kit
+- CSS# React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
