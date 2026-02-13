@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #0f172a;
+}
+
+.app {
+  padding: 20px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Board Layout */
+.board {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 10px;
+}
+
+/* Column Styling */
+.column {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 12px;
+  width: 300px;
+  min-height: 500px;
+  flex-shrink: 0;
+  color: white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.column h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+/* Task Card */
+.task-card {
+  background: #334155;
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  transition: all 0.2s ease;
+  cursor: grab;
+}
+
+.task-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Buttons */
+.task-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.task-buttons button {
+  background: #475569;
+  border: none;
+  color: white;
+  padding: 6px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: 0.2s;
+}
+
+.task-buttons button:hover {
+  background: #64748b;
+}
+
+/* Add Task */
+.add-task {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-task input,
+.add-task select {
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+}
+
+.add-task button {
+  background: #3b82f6;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.add-task button:hover {
+  background: #2563eb;
+}
+
+/* Search bar */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.search-bar input {
+  width: 300px;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+}
